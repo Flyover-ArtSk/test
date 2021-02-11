@@ -36,6 +36,12 @@ body > app-root > app-main > nav > div > div.collapse.navbar-collapse > app-navb
     color: #2b2b2b;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
 .sidebar .nav li.active,
 .sidebar .nav li a.router-link-active {
     border-right: 4px solid #6806cb !important;
