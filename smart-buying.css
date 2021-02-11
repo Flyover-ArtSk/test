@@ -1,9 +1,8 @@
 .bg-gradient {
-    background: #1a237e !important;
-    background: -webkit-linear-gradient(315deg,#1a237e 0,#000051 100%) !important;
-    background: -o-linear-gradient(315deg,#1a237e 0,#000051 100%) !important;
-    background: linear-gradient(135deg,#1a237e 0,#000051 100%) !important;
+    background: #fff !important;
 }
+
+
 
 .router-link-active, .router-link-active:hover>i, .router-link-active>a>i, .router-link-active>a>span, .router-link-active>i,
 .sidebar .nav li a:hover .fa, .sidebar .nav li a:hover .fas, .sidebar .nav li a:hover .fab, .sidebar .nav li a:hover .far, .sidebar .nav li a:hover .fal,
@@ -32,19 +31,21 @@ body > app-root > app-main > nav > div > div.collapse.navbar-collapse > app-navb
 .navbar-default .navbar-nav .open .dropdown-menu li a,
 .navbar-default .navbar-nav .open .dropdown-menu li a .fa, .navbar-default .navbar-nav .open .dropdown-menu li a .fab, .navbar-default .navbar-nav .open .dropdown-menu li a .fal, .navbar-default .navbar-nav .open .dropdown-menu li a .far, .navbar-default .navbar-nav .open .dropdown-menu li a .fas,
 .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a,
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a{
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a,
+.login .form-control, .login label,
+.login__descr {
     color: #2b2b2b;
+}
+
+.sidebar .nav li.active,
+.sidebar .nav li a.router-link-active {
+    border-right: 4px solid #6806cb !important;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-}
-
-.sidebar .nav li.active,
-.sidebar .nav li a.router-link-active {
-    border-right: 4px solid #6806cb !important;
 }
 
 .navbar-default {
